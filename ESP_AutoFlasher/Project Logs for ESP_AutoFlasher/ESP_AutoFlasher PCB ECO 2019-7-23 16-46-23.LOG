@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=FLASH NewDesignator=k2
+Change Component Designator: OldDesignator=RST NewDesignator=k1
+Added Component: Designator=weiecn(Weiecn-LOGO)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=ESP_AutoFlasher Member=Component weiecn logo

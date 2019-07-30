@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=TXD Pin=D2-1
+Removed Pin From Net: NetName=+3.3 Pin=D2-2
+Removed Pin From Net: NetName=RXD Pin=D2-3
+Removed Pin From Net: NetName=+3.3 Pin=D2-4
+Change Component Footprint: Designator=D2 Old Footprint=RGB_RG New Footprint=0603_LED_S1
+Change Component Comment : Designator=D2 Old Comment=LED_GR New Comment=黄灯 0603
+Change component parameters: Designator = "D2"; Footprint = "0603_LED_S1"; UniqueID = "\FYIDTXBU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_73147.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SuppliersPartNumber"; Value = "C72038"; VariantName = "[No Variations]"
+Added Component: Designator=D3(0603_LED_S1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_73150.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C72041"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3 Pin=D2-A
+Added Pin To Net: NetName=RXD Pin=D2-K
+Added Pin To Net: NetName=+3.3 Pin=D3-A
+Added Pin To Net: NetName=TXD Pin=D3-K
+Added Member To Class: ClassName=ESP_AutoFlasher Member=Component D3 蓝灯 0603
